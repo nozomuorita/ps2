@@ -1,7 +1,8 @@
 import React from 'react'
 import horse from "../../assets/horse.jpg";
 import high_school from "../../assets/high-school.jpg";
-import ibadai from "../../assets/ibadai.jpg";
+import ibadai from "../../assets/univ.png";
+import ncsp from "../../assets/ncsp.png";
 
 
 function About() {
@@ -14,7 +15,7 @@ function About() {
                     <h2 class="section-heading text-uppercase">About</h2>
                     <h3 class="section-subheading text-muted">趣味は競技プログラミングとWebサイト、アプリ制作です。AtCoderやってます！<br></br>最近、Vimにハマっています！</h3>
                     <h3 class="section-subheading text-muted">
-                        <ul>
+                        <ul className='AccountUrl'>
                             <li>AtCoderアカウント: <a href='https://atcoder.jp/users/nzm_ort' target='_blank'>https://atcoder.jp/users/nzm_ort</a></li>
                             <li>CodeForcesアカウント: <a href='https://codeforces.com/profile/nzm_ort' target='_blank'>https://codeforces.com/profile/nzm_ort</a></li>
                             <li>Xアカウント: <a href='https://twitter.com/account_0818' target='_blank'>https://twitter.com/account_0818</a></li>
@@ -51,7 +52,7 @@ function About() {
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2019~2023</h4>
-                                <h4 class="subheading">茨城大学</h4>
+                                <h4 class="subheading">○○大学</h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">工学部機械システム工学科<br></br>・機械学習・プログラミングの勉強に力を入れて取り組みました！<br></br>・機械学習ではデータを取得し、前処理をするところからモデルを評価するまでの一連の流れについて学ぶことができました。</p></div>
                         </div>
@@ -61,7 +62,7 @@ function About() {
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2023~</h4>
-                                <h4 class="subheading">茨城大学大学院</h4>
+                                <h4 class="subheading">○○大学大学院</h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">理工学研究科機械システム工学専攻<br></br>・研究活動と競技プログラミングに力を入れて取り組みました！<br></br>・競プロを通してアルゴリズムに関する知識・実装力を身に付けました。</p></div>
                         </div>
@@ -77,6 +78,14 @@ function About() {
                             </h4>
                         </div>
                     </li> */}
+                </ul>
+            </div>
+            <div class="container">
+                <h2 class="section-heading text-uppercase text-center">学会発表</h2>
+                <ul className='AccountUrl text-center'>
+                    <li>2023年8月　茨城講演会</li>
+                    <li>2024年2月　NCSP2024　英語発表　「Student Paper Award」受賞</li>
+                    <img class="ncsp" src={ncsp} alt="..." />
                 </ul>
             </div>
         </section>
