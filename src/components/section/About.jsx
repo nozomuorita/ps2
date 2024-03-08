@@ -18,7 +18,6 @@ function About() {
                         <ul className='AccountUrl'>
                             <li>AtCoderアカウント: <a href='https://atcoder.jp/users/nzm_ort' target='_blank'>https://atcoder.jp/users/nzm_ort</a></li>
                             <li>CodeForcesアカウント: <a href='https://codeforces.com/profile/nzm_ort' target='_blank'>https://codeforces.com/profile/nzm_ort</a></li>
-                            <li>Xアカウント: <a href='https://twitter.com/account_0818' target='_blank'>https://twitter.com/account_0818</a></li>
                             <li>Qiitaアカウント: <a href='https://qiita.com/nzmort1' target='_blank'>https://qiita.com/nzmort1</a></li>
                             <li>Noteアカウント: <a href='https://note.com/lorem_0818' target='_blank'>https://note.com/lorem_0818</a></li>
                             
