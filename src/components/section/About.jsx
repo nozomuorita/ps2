@@ -66,6 +66,16 @@ function About() {
                             <div class="timeline-body"><p class="text-muted">理工学研究科機械システム工学専攻<br></br>・研究活動と競技プログラミングに力を入れて取り組みました！<br></br>・競プロを通してアルゴリズムに関する知識・実装力を身に付けました。</p></div>
                         </div>
                     </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src={ibadai} alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2025~</h4>
+                                <h4 class="subheading">社会人</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">頑張ります！</p></div>
+                        </div>
+                    </li>
                     {/* <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>
