@@ -3,6 +3,7 @@ import horse from "../../assets/horse.jpg";
 import high_school from "../../assets/high-school.jpg";
 import ibadai from "../../assets/univ.png";
 import ncsp from "../../assets/ncsp.png";
+import paper from "../../assets/paper.png";
 
 
 function About() {
@@ -62,7 +63,7 @@ function About() {
                                 <h4 class="subheading">○○大学大学院</h4>
                             </div>
                             {/* <div class="timeline-body"><p class="text-muted">理工学研究科機械システム工学専攻<br></br>・研究活動と競技プログラミングに力を入れて取り組みました！<br></br>・競プロを通してアルゴリズムに関する知識・実装力を身に付けました。</p></div> */}
-                            <div class="timeline-body"><p class="text-muted">理工学研究科機械システム工学専攻<br></br>修士論文<br></br>「データマイニングバイアスを考慮した国内株式運用の機械学習」</p></div>
+                            <div class="timeline-body"><p class="text-muted">理工学研究科<br></br>機械システム工学専攻<br></br>修士論文<br></br>「データマイニングバイアスを考慮した国内株式運用の機械学習」</p></div>
                         </div>
                     </li>
                     <li>
@@ -88,12 +89,31 @@ function About() {
                     </li> */}
                 </ul>
             </div>
-            <div class="container">
+            <div class="container container-sub">
                 <h2 class="section-heading text-uppercase text-center">学会発表</h2>
-                <ul className='AccountUrl text-center'>
-                    <li>2023年8月　茨城講演会</li>
-                    <li>2024年2月　NCSP2024　英語発表　「Student Paper Award」受賞</li>
+                <ul className='conference'>
+                    <li className='conference-content'>2023年8月　日本機械学会茨城講演会<br></br>「景気敏感業種を考慮した国内株式運用の機械学習」</li>
+                    <li className='conference-content'>2024年2月　Proc. of RISP International Workshop on NCSP（英語発表）<br></br>「Machine learning of economic sensitive industries for domestic equity management」<br></br>※「Student Paper Award」受賞</li>
+                    {/* <img class="ncsp" src={ncsp} alt="..." /> */}
+                </ul>
+                <ul className='text-center'>
                     <img class="ncsp" src={ncsp} alt="..." />
+                </ul>
+
+                <ul className='AccountUrl text-center'>
+                    {/* <li>2023年8月　茨城講演会</li>
+                    <li>2024年2月　NCSP2024　英語発表　「Student Paper Award」受賞</li> */}
+                    {/* <img class="ncsp" src={ncsp} alt="..." /> */}
+                </ul>
+            </div>
+            <div class="container container-sub">
+                <h2 class="section-heading text-uppercase text-center">学術論文</h2>
+                <ul className='paper'>
+                    <li className='conference-content'>Nozomu Orita, Takashi Suzuki, Tomoya Suzuki:<br></br>
+                    ``Machine learning of economic sensitive industries without data-mining bias for domestic equity management,'' <a href='https://www.jstage.jst.go.jp/article/jsp/28/4/28_151/_article/-char/ja/' target='_blank'>[PDF]</a></li>
+                </ul>
+                <ul className='text-center'>
+                    <img class="ncsp" src={paper} alt="..." />
                 </ul>
             </div>
         </section>
